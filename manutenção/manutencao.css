@@ -8,19 +8,14 @@ body {
     background-color: #352238;
 }
 
-#form {
+#bloco {
     width: 300px;
     margin: 200px auto;
     text-align: center;
-    background-color: #1f162067;
+    background-color: #47145067;
     height: 250px;
     border-radius: 20px;
     padding-top: 5px;
-}
-
-h3 {
-    color: white;
-    font-size: 20px;
 }
 
 input {
@@ -32,3 +27,15 @@ input {
     border-radius: 5px;
 }
 
+button {
+    display: block;
+    margin: 15px auto;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+}
