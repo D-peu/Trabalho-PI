@@ -7,15 +7,25 @@
     <link rel="stylesheet" href="manutencao.css">
 </head>
 <body>
-    <div id="bloco">
-        <h3>Tela de Manutenção</h3>
-        <label for="novo-nome">Novo Nome do Produto:</label>
-        <input type="text" id="novo-nome" placeholder="Digite o novo nome aqui">
-        <button id="botao-salvar">Salvar Alteração</button>
-
-        <a href="/index.html">Voltar para a Tela Principal</a>
-    </div>
-
-    <script src="manutencao.js"></script>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Beat trap vol.1</td>
+                <td class="categoria">Beat completo</td>
+                <td>Beat produzido pensado em trap mainstream</td>
+                <td>
+                    <a href="">Editar</a>
+                    <a href="">deletar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

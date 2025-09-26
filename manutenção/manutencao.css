@@ -2,40 +2,23 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    background-color: #352238;
+table{
+    margin-top: 200px;
+}
+table tr {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#bloco {
-    width: 300px;
-    margin: 200px auto;
-    text-align: center;
-    background-color: #47145067;
-    height: 250px;
-    border-radius: 20px;
-    padding-top: 5px;
+table thead tr th {
+    margin-right: 90px;
+    margin-bottom: 10px;
 }
 
-input {
-    display: block;
-    margin: 15px auto;
-    width: 250px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
+table tbody tr td{
+    margin-left: 80px;
 }
 
-button {
-    display: block;
-    margin: 15px auto;
-    width: 250px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-}
-
-a {
-    color: white;
+.categoria{
+    margin-left: 180px;
 }
